@@ -23,10 +23,7 @@ class Main extends Component {
         super(props);
     }
 
-
-
     render() {
-
         const  HomePage = () => {
             return(
                 <Home dish={this.props.dishes.filter((dish) => dish.featured)[0]}
